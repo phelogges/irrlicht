@@ -169,6 +169,8 @@ if(MSVC)
         /D_HAS_EXCEPTIONS=0 
     )
     target_compile_definitions(${PROJECT_NAME} PRIVATE 
+        UNICODE
+        _UNICODE
         _IRR_WCHAR_FILESYSTEM
         NO_IRR_COMPILE_WITH_DIRECT3D_9_
         NO_IRR_COMPILE_WITH_JOYSTICK_EVENTS_
